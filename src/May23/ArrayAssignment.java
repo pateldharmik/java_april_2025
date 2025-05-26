@@ -65,13 +65,13 @@ public class ArrayAssignment {
 
 //        System.out.println("Enter the length of the character array:");
 //        x = input.nextInt();
-        char temp;
 
 //        System.out.println("Enter the characters of the string:");
 //        for (int i = 0; i < name.length; i++) {
 //            name[i] = input.next().charAt(0);
 //        }
 
+        char temp;
 
         for (int i = 0; i < name.length / 2; i++) {
             temp = name[i];

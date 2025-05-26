@@ -19,8 +19,8 @@ public class ArrayAssignmentMain {
         System.out.println("Enter the Name Array");
         nameArray = array.next().toCharArray();
 
-        char[] xyz = demo.StringReverse(nameArray);
-        System.out.println(xyz);
+        char[] resultName = demo.StringReverse(nameArray);
+        System.out.println(resultName);
 
         //Add array block
         //demo.addArray();
