@@ -1,4 +1,4 @@
-package May23;
+package may23;
 
 public class ArrayGetMaxMin {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package May23;
+package may23;
 
 public class ReverseArray {
     public static void main(String[] args) {

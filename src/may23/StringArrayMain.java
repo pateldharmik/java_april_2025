@@ -1,6 +1,4 @@
-package May23;
-
-import java.util.Scanner;
+package may23;
 
 public class StringArrayMain {
     public static void main(String[] args) {

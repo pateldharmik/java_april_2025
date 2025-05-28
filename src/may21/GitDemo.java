@@ -1,4 +1,4 @@
-package May21;
+package may21;
 
 public class GitDemo {
 }
