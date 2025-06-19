@@ -30,4 +30,5 @@ public class Spotify implements AudioPlayer{
     public void stop() {
         System.out.println("Spotify has stopped");
     }
+
 }

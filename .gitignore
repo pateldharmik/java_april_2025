@@ -27,5 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/src/fileDemo/
 /src/challengeProblem/
+/src/fileDemo/
+/src/assignments/
