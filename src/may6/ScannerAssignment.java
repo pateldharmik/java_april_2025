@@ -26,7 +26,7 @@ public class ScannerAssignment {
         String language = scanner.nextLine();
 
         switch (language) {
-            case "English","english","en":
+            case "English":
                 System.out.println("Press 1 for Tech Support");
                 System.out.println("Press 2 for Billing");
                 System.out.println("Press 3 for Payment arrangement");
@@ -52,7 +52,7 @@ public class ScannerAssignment {
                         break;
                 }
                 break;
-            case "French","french","fr":
+            case "French":
                 System.out.println("Press 1 for Tech Support");
                 System.out.println("Press 2 for Billing");
                 System.out.println("Press 3 for Payment arrangement");

@@ -18,4 +18,3 @@
 # iterator
     1. Iterator is an interface but it has methods with bodies.
     2. Iterator solves the problem of performing the remove operation in the for loop.
-    3. 
