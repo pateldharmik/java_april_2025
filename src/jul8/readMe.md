@@ -32,4 +32,4 @@
 
     1. Functional Interface can only be used to make a Lambda.
     2. () representation of the arguments.
-    3. it is the implementation of the abstract method in the functional Interface.
+    3. It is the implementation of the abstract method in the functional Interface.
