@@ -20,5 +20,6 @@ public class Exercise {
 		vv.validatePlate(plateNumber, iCheck);
 		vv.validatePlate(plateNumber2, iCheck);
 
+
 	}
 }
