@@ -1,20 +1,16 @@
 package jul19;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Exercise {
 
 	public static void main(String[] args) {
 
-		List<String> names = Arrays.asList("Dharmik", "Utsav", "4Sunny", "Maitree", "Shubham", "Parminder", "Jasmeet", "Edward", "Utsav");
+		List<String> names = Arrays.asList("Dharmik", "Utsav", "4Sunny", "Maitree", "Shubham", "Parminder", "Jasmeet", "Edward", "Utsav", "abc", "demo");
 
 		/* ***Exercise 1:***
 		 * Make a list of String Names
@@ -29,7 +25,7 @@ public class Exercise {
 		List<String> namesStream = names.stream()
 				.sorted()
 				.distinct()
-				.filter(name -> name.length() <= 6)
+				.filter(name -> name.length() < 6)
 				.filter(name -> !Character.isDigit(name.charAt(0)))
 				.collect(Collectors.toList());
 
@@ -47,7 +43,7 @@ public class Exercise {
 		Random rand = new Random();
 
 		List<Customer> customers = names.stream()
-				.filter(name -> name.length() <= 6)
+				.filter(name -> name.length() < 6)
 				.map(name -> new Customer(name, rand.nextInt(99), "Pragra.IO"))
 				.collect(Collectors.toList());
 		System.out.println(customers);
@@ -55,6 +51,5 @@ public class Exercise {
 		int totalAge = customers.stream()
 				.mapToInt(Customer::getAge).sum();
 		System.out.println(totalAge);
-
 	}
 }
