@@ -1,5 +1,6 @@
 ## flatMap
 ## method reference
+    -> Operator (::)
 ## Optional class
     -> Null pointer wrapper.
 

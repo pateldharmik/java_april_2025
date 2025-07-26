@@ -6,7 +6,7 @@
 ## StringBuilder
 1. StringBuilder is mutable.
 2. Objects can be changed.
-3. This is not Thread safe means can be accessed by multiple threads together.
+3. Multiple threads can access this is not Thread safe means together.
 
 ## StringBuffer
 1. StingBuffer is also mutable.

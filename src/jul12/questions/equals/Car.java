@@ -1,7 +1,6 @@
 package jul12.questions.equals;
 
 import lombok.AllArgsConstructor;
-
 import java.util.Objects;
 
 @AllArgsConstructor
